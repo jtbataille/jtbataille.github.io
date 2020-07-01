@@ -16,7 +16,7 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                     <a class="nav-link" href="index.html">About</a>
                     </li>
@@ -33,6 +33,16 @@
 
         <form>
             <div class="form-group">
+                <label for="exampleFormControlName1">Name</label>
+                <div class="form-row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+            </div>
             <label for="exampleFormControlInput1">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
@@ -40,12 +50,13 @@
             <label for="exampleFormControlTextarea1">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Please write me a message!"></textarea>
             </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
         </form>
 
         <div class="card-footer text-muted">
             &#169;Copyright
           </div>
-          
+
     </body>
 
 </html>

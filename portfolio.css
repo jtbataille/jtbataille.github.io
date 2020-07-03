@@ -1,11 +1,16 @@
+body {
+    background-color: #D4D9DD;
+}
+
 .nav-item {
     border: 2px solid transparent !important;
 }
 
 .nav-item:hover {
     text-decoration: none !important;
-    border-bottom: 2px solid #808000 !important;
+    border-bottom: 2px solid #F1F1F1 !important;
     transition: 0.5s ease !important;
+    transform: scale(1.1) !important;
 }
 
 nav {
@@ -14,8 +19,45 @@ nav {
 
 footer {
     font-family: 'Yellowtail', cursive;
+    color: #F1F1F1 !important;
+    background-color: #424246 !important;
 }
 
 .card {
-    border: 3px solid #808000 !important;
+    border: 3px solid #BBB6B6 !important;
+}
+
+.navbar {
+    background-color: #424246 !important;
+}
+
+nav a {
+    color: #F1F1F1 !important;
+}
+
+@media screen (min-width: 991px;) {
+    #project1{
+        float: left !important;
+        margin-top: 20px !important;
+    }
+    #project2{
+        float: left !important;
+        margin-top: 20px !important;
+    }
+    #project3{
+        float: left !important;
+        margin-top: 20px !important;
+    }
+    #project4{
+        float: left !important;
+        margin-top: 20px !important;
+    }
+    #project5{
+        float: left !important;
+        margin-top: 20px !important;
+    }
+    #project6{
+        float: left !important;
+        margin-top: 20px !important;
+    }
 }

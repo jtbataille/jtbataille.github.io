@@ -1,11 +1,16 @@
+body {
+    background-color: #D4D9DD;
+}
+
 .nav-item {
     border: 2px solid transparent !important;
 }
 
 .nav-item:hover {
     text-decoration: none !important;
-    border-bottom: 2px solid #808000 !important;
+    border-bottom: 2px solid #F1F1F1 !important;
     transition: 0.5s ease !important;
+    transform: scale(1.1) !important;
 }
 
 nav {
@@ -14,8 +19,19 @@ nav {
 
 footer {
     font-family: 'Yellowtail', cursive;
+    color: #F1F1F1 !important;
+    background-color: #424246 !important;
 }
 
 .jumbotron {
-    box-shadow: 10px 10px grey;
+    box-shadow: 10px 10px #BBB6B6;
+    border: 1px solid black;
+}
+
+.navbar {
+    background-color: #424246 !important;
+}
+
+nav a {
+    color: #F1F1F1 !important;
 }

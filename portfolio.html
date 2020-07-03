@@ -2,12 +2,26 @@
 <html lang="en-us">
 
     <head>
-        <title>Jarrod Bataille</title>
+        <title>My Portfolio</title>
+        
+        <!-- Bootstrap's CSS link -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+        <!-- Bootstra's JS link -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+        <!-- fonts.google.com link -->
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Yellowtail&display=swap" rel="stylesheet">
+        
+        <!-- Personalized CSS link -->
         <link rel="stylesheet" type="text/css" href="portfolio.css">
-    </head>
+        
+      </head>
 
     <body>
+        <!-- Creation of navbar for each area of webpage; this one linked to Portfolio section -->
         <header>
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,37 +46,86 @@
 
         </header>
 
-        <div class="card-group" style="margin-bottom:20px">
-            <div class="card">
-              <img src="https://lh3.googleusercontent.com/proxy/dKgbtA8Xpxs2wwKdXGpujpvzm1CqbqNt3w-QXnH3IIJX_nS6-qkng-j44NSWwD3Fo6mrmtHhqwjHGGwuzWgtJiEyoeTd--jMr9baH9nl2JJ7fAOQkoWYco13lsw_" class="card-img-top" alt="Placeholder image.">
-              <div class="card-body">
-                <h5 class="card-title">Project 1</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="https://lh3.googleusercontent.com/proxy/dKgbtA8Xpxs2wwKdXGpujpvzm1CqbqNt3w-QXnH3IIJX_nS6-qkng-j44NSWwD3Fo6mrmtHhqwjHGGwuzWgtJiEyoeTd--jMr9baH9nl2JJ7fAOQkoWYco13lsw_" class="card-img-top" alt="Placeholder image.">
-              <div class="card-body">
-                <h5 class="card-title">Project 2</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="https://lh3.googleusercontent.com/proxy/dKgbtA8Xpxs2wwKdXGpujpvzm1CqbqNt3w-QXnH3IIJX_nS6-qkng-j44NSWwD3Fo6mrmtHhqwjHGGwuzWgtJiEyoeTd--jMr9baH9nl2JJ7fAOQkoWYco13lsw_" class="card-img-top" alt="Placeholder image.">
-              <div class="card-body">
-                <h5 class="card-title">Project 3</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
+        <!-- Rows created to divide each Project section evenly on the webpage -->
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-4 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://lh3.googleusercontent.com/proxy/1pP3y-Fcp8CwEPLDLx9s9FJV302eQUemyWwv3svrvAkBrRdtkHcQiTNH5kji5vul0TCarqoBwZpX_iZzjNMicAiLrW_WHsw" class="card-img-top p-2" alt="Image of a lightbulb" style="height: 13rem;">
+                        <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Check out Project 1</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQF81_AvGQD1FG5l6FtDWY8EdJsAbya7Xzivg&usqp=CAU" class="card-img-top p-2" alt="Image of binary code" style="height: 13rem;">
+                        <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Check out Project 2</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtv0vJ9nIPkHnkAU41b2faLEy3eZboF3rxuw&usqp=CAU" class="card-img-top p-2" alt="Visual Studio Code logo" style="height: 13rem;">
+                        <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Check out Project 3</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://www.success.com/wp-content/uploads/2016/07/waystotapintoyourcreativeself.jpg" class="card-img-top p-2" alt="Head with birds bursting out" style="height: 13rem;">
+                        <div class="card-body">
+                        <h5 class="card-title">Project 4</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Check out Project 4</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.idgesg.net/images/article/2019/02/certification_school_pencils_diversity_creative_team_by-evgeny555-getty-100787956-large.jpg" class="card-img-top p-2" alt="Black pencils with variously colored lead" style="height: 13rem;">
+                        <div class="card-body">
+                        <h5 class="card-title">Project 5</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Check out Project 5</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://preschoolinspirations.com/wp-content/uploads/2019/03/Yoast-rainbow-songs-for-kids.jpg" class="card-img-top p-2" alt="IMage of a rainbow" style="height: 13rem;">
+                        <div class="card-body">
+                        <h5 class="card-title">Project 6</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Check out Project 6</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div class="card-footer text-muted">
-            &#169;Copyright
+        <!-- Footer fixed to bottom of page with Copyright -->        
+        <div class="card-footer text-muted sticky-bottom text-center">
+            <footer>
+              &#169; Copyright
+            </footer>
         </div>
 
+    <!-- Added to create a toggle menu for navbar when on smaller screens -->        
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 

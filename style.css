@@ -1,1 +1,21 @@
-something here because it won't let me upload it otherwise.
+.nav-item {
+    border: 2px solid transparent !important;
+}
+
+.nav-item:hover {
+    text-decoration: none !important;
+    border-bottom: 2px solid #808000 !important;
+    transition: 0.5s ease !important;
+}
+
+nav {
+    font-family: 'Orbitron', sans-serif;
+}
+
+footer {
+    font-family: 'Yellowtail', cursive;
+}
+
+.jumbotron {
+    box-shadow: 10px 10px grey;
+}

@@ -2,12 +2,26 @@
 <html lang="en-us">
 
   <head>
-    <title>Jarrod Bataille</title>
+    <title>My Portfolio</title>
+    
+    <!-- Bootstrap's CSS link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <!-- Bootstrap's JS link -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- fonts.google.com link -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Yellowtail&display=swap" rel="stylesheet">
+    
+    <!-- Personalized CSS link -->
     <link rel="stylesheet" type="text/css" href="style.css">
+
   </head>
 
   <body>
+    <!-- Creation of navbar for each area of webpage; this one linked to About section -->
     <header>
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -35,6 +49,7 @@
 
     </header>
 
+    <!-- Div to hold About Me section contained in a jumbotron -->
     <div class="container">
       
       <div class="row">
@@ -48,7 +63,7 @@
                 <div class="col-3">
                   <img src="IMG_0029.jpg" alt="Picture of myself" width="100%">
                 </div>
-                <p class="lead col-9">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam rem, tenetur iste dolores modi et alias deleniti, ipsum, eligendi nam fugiat autem dolorum similique enim nostrum beatae unde quo quae vitae magni. Voluptatum porro harum animi alias aliquam suscipit rerum unde consequatur esse veniam placeat provident debitis expedita sequi, optio recusandae? Distinctio eaque aspernatur officia doloribus veritatis, aliquam, hic molestias itaque at dolore, voluptate rem fuga ipsa rerum dolorem ipsum perspiciatis facere voluptatem harum fugit nihil voluptates! Repudiandae enim repellat temporibus ipsam quis corporis architecto nulla dolore mollitia? Tenetur reprehenderit, ut natus quaerat consequatur delectus dolorum deleniti voluptatibus vero labore.</p>
+                <p class="lead col-9">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam rem, tenetur iste dolores modi et alias deleniti, ipsum, eligendi nam fugiat autem dolorum similique enim nostrum beatae unde <b class="text-success">full-stack developer</b> magni. Voluptatum porro harum animi alias aliquam suscipit rerum unde consequatur esse veniam placeat provident debitis expedita sequi, optio recusandae? Distinctio eaque aspernatur officia <b class="text-dark">critical</b> veritatis, aliquam, hic molestias itaque at dolore, voluptate <b class="text-info">programming</b> ipsum perspiciatis facere voluptatem harum fugit nihil voluptates! Repudiandae enim repellat temporibus ipsam quis corporis architecto nulla dolore mollitia? Tenetur reprehenderit, ut natus quaerat consequatur delectus dolorum deleniti voluptatibus vero labore.</p>
               </div>
             </div>
             
@@ -59,11 +74,15 @@
       </div>
 
     </div>
-    
-    <div class="card-footer text-muted">
-      &#169;Copyright
+
+    <!-- Footer fixed to bottom of page with Copyright -->
+    <div class="card-footer text-muted fixed-bottom text-center">
+      <footer>
+        &#169; Copyright
+      </footer>
     </div>
 
+    <!-- Added to create a toggle menu for navbar when on smaller screens -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 

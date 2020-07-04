@@ -31,6 +31,11 @@ h3 {
     padding-bottom: 15px;
 }
 
+section {
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
 .portfolio:hover img {
     opacity: .25;
     transform: scale(1.1);
@@ -67,8 +72,4 @@ footer {
     font-family: 'Yellowtail', cursive;
     color: #F1F1F1 !important;
     background-color: #424246 !important;
-}
-
-@media screen and (max-width: 991px) {
-    
 }

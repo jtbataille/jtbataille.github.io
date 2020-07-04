@@ -2,6 +2,14 @@ body {
     background-color: #D4D9DD;
 }
 
+.navbar {
+    background-color: #424246 !important;
+}
+
+nav a {
+    color: #F1F1F1 !important;
+}
+
 .nav-item {
     border: 2px solid transparent !important;
 }
@@ -13,6 +21,10 @@ body {
     transform: scale(1.1) !important;
 }
 
+nav {
+    font-family: 'Orbitron', sans-serif;
+}
+
 form {
     background-color: #BBB6B6 !important;
     padding: 10px;
@@ -20,25 +32,13 @@ form {
     border: 1px solid black;
 }
 
-nav {
-    font-family: 'Orbitron', sans-serif;
+h5 {
+    color: #212121 !important;
+    font-size: x-large;
 }
 
 footer {
     font-family: 'Yellowtail', cursive;
     color: #F1F1F1 !important;
     background-color: #424246 !important;
-}
-
-.navbar {
-    background-color: #424246 !important;
-}
-
-nav a {
-    color: #F1F1F1 !important;
-}
-
-h5 {
-    color: #212121 !important;
-    font-size: x-large;
 }

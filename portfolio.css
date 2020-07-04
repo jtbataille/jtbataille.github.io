@@ -2,6 +2,14 @@ body {
     background-color: #D4D9DD;
 }
 
+.navbar {
+    background-color: #424246 !important;
+}
+
+nav a {
+    color: #F1F1F1 !important;
+}
+
 .nav-item {
     border: 2px solid transparent !important;
 }
@@ -17,47 +25,50 @@ nav {
     font-family: 'Orbitron', sans-serif;
 }
 
+h3 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.portfolio:hover img {
+    opacity: .25;
+    transform: scale(1.1);
+}
+
+.portfolio:hover .overlay {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: .5s ease;
+    font-family: 'Yellowtail', cursive;
+}
+
+h4 {
+    color: #212121;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 footer {
     font-family: 'Yellowtail', cursive;
     color: #F1F1F1 !important;
     background-color: #424246 !important;
 }
 
-.card {
-    border: 3px solid #BBB6B6 !important;
-}
-
-.navbar {
-    background-color: #424246 !important;
-}
-
-nav a {
-    color: #F1F1F1 !important;
-}
-
-@media screen (min-width: 991px;) {
-    #project1{
-        float: left !important;
-        margin-top: 20px !important;
-    }
-    #project2{
-        float: left !important;
-        margin-top: 20px !important;
-    }
-    #project3{
-        float: left !important;
-        margin-top: 20px !important;
-    }
-    #project4{
-        float: left !important;
-        margin-top: 20px !important;
-    }
-    #project5{
-        float: left !important;
-        margin-top: 20px !important;
-    }
-    #project6{
-        float: left !important;
-        margin-top: 20px !important;
-    }
+@media screen and (max-width: 991px) {
+    
 }

@@ -2,6 +2,14 @@ body {
     background-color: #D4D9DD;
 }
 
+.navbar {
+    background-color: #424246 !important;
+}
+
+nav a {
+    color: #F1F1F1 !important;
+}
+
 .nav-item {
     border: 2px solid transparent !important;
 }
@@ -17,21 +25,13 @@ nav {
     font-family: 'Orbitron', sans-serif;
 }
 
-footer {
-    font-family: 'Yellowtail', cursive;
-    color: #F1F1F1 !important;
-    background-color: #424246 !important;
-}
-
 .jumbotron {
     box-shadow: 10px 10px #BBB6B6;
     border: 1px solid black;
 }
 
-.navbar {
-    background-color: #424246 !important;
-}
-
-nav a {
+footer {
+    font-family: 'Yellowtail', cursive;
     color: #F1F1F1 !important;
+    background-color: #424246 !important;
 }

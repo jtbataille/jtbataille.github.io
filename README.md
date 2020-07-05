@@ -7,7 +7,7 @@ This is the start for my portfolio website, including an "About me," "Portfolio,
 
 ## Future Plans:
 
-In the figure I plan to add a number of components:
+In the future I plan to add a number of components:
     
     1. Add a homepage as a separate entity from the simple "About Me" page to add more variety, as well as specialization in the About Me Section.
     

@@ -27,7 +27,7 @@ My portfolio contains the following pages:
     * Contact: to give a form to the user so that s/he may contact me with any questions and/or opportunities
     
 ## Website Demo
-
+![My Portfolio](https://user-images.githubusercontent.com/65187093/90452406-07f21300-e0bc-11ea-9892-52aac98a7769.gif)
 
 ## Deployed Website Link
 * [My Portfolio](https://jtbataille.github.io/)

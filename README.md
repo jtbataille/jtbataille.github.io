@@ -1,20 +1,38 @@
-# Portfolio Weblanding (jtbataille.github.io):
-My personal portfolio site.
+# Portfolio Website: Jarrod Bataille
 
-## Explanation:
+## Table of Contents
+* [Description](#description)
+* [Technologies Used](#technologies-used)
+* [Website Navigation](#website-navigation)
+* [Website Demo](#website-demo)
+* [Deployed Website Link](#deployed-website-link)
+* [Contact Me](#contact-information)
+
+## Description
 
 This is the start for my portfolio website, including an "About me," "Portfolio," and "Contact" page. This site will hold information about me (personality, education, and experience with coding), some of the projects I have completed during BootCamp to allow for viewing and access (right now these are just dummy-links as no such projects have commenced), as well as a way to future employers and/or inquiring minds to ask me any questions they may have (also not working as we have not learned the back-end work yet).
 
-## Future Plans:
+## Technologies Used
+* HTML
+* Bootstrap
+* CSS
+* Font Awesome
 
-In the future I plan to add a number of components:
+## Website Navigation
+
+My portfolio contains the following pages: 
+    * About Me: to provide information about myself and a bit about my passion for coding and web development
+    * Portfolio: to arrange the various projects I have done--either in collaboration or alone--with links to their respective GitHub sites, containing links to their deployed applications
+    * Resume: to lay out various methods of contact, my past education, job experience, as well as various skills I possess
+    * Contact: to give a form to the user so that s/he may contact me with any questions and/or opportunities
     
-    1. Add a homepage as a separate entity from the simple "About Me" page to add more variety, as well as specialization in the About Me Section.
-    
-    2. Add a page that includes my Curriculum Vitae (CV) so that future employers can be even more familiar with skills and assets apart from the programming ones.
-    
-    3. Add links to social media outlets (LinkedIn, GitHub, Instagram, Twitter, etc.) so that employers can see me on those platforms as well and link up with me.
-    
-    4. Add more creativity with photos.
-    
-    5. Add aspects of interactivity and responsiveness.
+## Website Demo
+![My Portfolio](https://user-images.githubusercontent.com/65187093/90452406-07f21300-e0bc-11ea-9892-52aac98a7769.gif)
+
+## Deployed Website Link
+* [My Portfolio](https://jtbataille.github.io/)
+
+## Contact Information
+* E-mail: jtbataille@gmail.com
+* LinkedIn: [Find Me Here](https://www.linkedin.com/in/jarrod-bataille-9154461aa/)
+* GitHub: [Find Me Here](https://github.com/jtbataille)

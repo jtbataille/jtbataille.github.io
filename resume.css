@@ -25,6 +25,17 @@ nav {
     font-family: 'Orbitron', sans-serif;
 }
 
+.content {
+    position: absolute !important;
+    top: 85px;
+    left: 0;
+    right: 0;
+    bottom: 57px;
+    padding: 5px;
+    height: calc(100vh - 140px);
+    overflow: auto;
+}
+
 footer {
     font-family: 'Yellowtail', cursive;
     color: #F1F1F1 !important;

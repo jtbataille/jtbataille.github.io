@@ -1,0 +1,32 @@
+body {
+    background-color: #D4D9DD;
+}
+
+.navbar {
+    background-color: #424246 !important;
+}
+
+nav a {
+    color: #F1F1F1 !important;
+}
+
+.nav-item {
+    border: 2px solid transparent !important;
+}
+
+.nav-item:hover {
+    text-decoration: none !important;
+    border-bottom: 2px solid #F1F1F1 !important;
+    transition: 0.5s ease !important;
+    transform: scale(1.1) !important;
+}
+
+nav {
+    font-family: 'Orbitron', sans-serif;
+}
+
+footer {
+    font-family: 'Yellowtail', cursive;
+    color: #F1F1F1 !important;
+    background-color: #424246 !important;
+}

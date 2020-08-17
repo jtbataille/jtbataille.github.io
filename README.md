@@ -4,7 +4,6 @@
 * [Description](#description)
 * [Technologies Used](#technologies-used)
 * [Website Navigation](#website-navigation)
-* [Continued Usage](#continued-usage)
 * [Website Demo](#website-demo)
 * [Deployed Website Link](#deployed-website-link)
 * [Contact Me](#contact-information)

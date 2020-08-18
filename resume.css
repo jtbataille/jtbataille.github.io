@@ -32,11 +32,11 @@ nav {
     right: 0;
     bottom: 57px;
     padding: 5px;
-    height: calc(100vh - 142px);
+    height: calc(100vh - 100px);
     overflow: auto;
 }
 
-.embed-wrapper {
+.frame-wrapper {
     overflow: auto;
     -webkit-overlow-scrolling: touch;
 }

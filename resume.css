@@ -36,7 +36,12 @@ nav {
     overflow: auto;
 }
 
+.container-fluid {
+    padding-bottom: 15px;
+}
+
 iframe {
+    margin-top: 0;
     overflow: auto;
     -webkit-overlow-scrolling: touch;
 }

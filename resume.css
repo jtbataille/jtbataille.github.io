@@ -36,6 +36,11 @@ nav {
     overflow: auto;
 }
 
+.embed-wrapper {
+    overflow: auto;
+    -webkit-overlow-scrolling: touch;
+}
+
 footer {
     font-family: 'Yellowtail', cursive;
     color: #F1F1F1 !important;

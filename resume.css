@@ -36,14 +36,6 @@ nav {
     overflow: auto;
 }
 
-.embed-responsive {
-    position: relative;
-    display: block;
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
 footer {
     font-family: 'Yellowtail', cursive;
     color: #F1F1F1 !important;

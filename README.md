@@ -31,8 +31,8 @@ My portfolio contains the following pages:
 * [My Portfolio](https://jtbataille.github.io/)
 
 ## Contact Information
-* LinkedIn: [Find me on Linkedin](https://www.linkedin.com/in/jarrod-bataille-9154461aa/)
-* GitHub: [Find me on GitHub](https://github.com/jtbataille)
+* LinkedIn Profile: [Find me on Linkedin](https://www.linkedin.com/in/jarrod-bataille-9154461aa/)
+* GitHub Profile: [Find me on GitHub](https://github.com/jtbataille)
 * E-mail Address: jtbataille@gmail.com
 
 - - -

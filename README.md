@@ -1,4 +1,5 @@
 # Portfolio Website: Jarrod Bataille
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Table of Contents
 * [Description](#description)
@@ -13,10 +14,7 @@
 This is the start for my portfolio website, including an "About me," "Portfolio," and "Contact" page. This site will hold information about me (personality, education, and experience with coding), some of the projects I have completed during BootCamp to allow for viewing and access (right now these are just dummy-links as no such projects have commenced), as well as a way to future employers and/or inquiring minds to ask me any questions they may have (also not working as we have not learned the back-end work yet).
 
 ## Technologies Used
-* HTML
-* Bootstrap
-* CSS
-* Font Awesome
+HTML, CSS, Bootstrap, Font Awesome
 
 ## Website Navigation
 
@@ -34,5 +32,8 @@ My portfolio contains the following pages:
 
 ## Contact Information
 * E-mail: jtbataille@gmail.com
-* LinkedIn: [Find Me Here](https://www.linkedin.com/in/jarrod-bataille-9154461aa/)
-* GitHub: [Find Me Here](https://github.com/jtbataille)
+* LinkedIn: [Find me on Linkedin](https://www.linkedin.com/in/jarrod-bataille-9154461aa/)
+* GitHub: [Find me on GitHub](https://github.com/jtbataille)
+
+- - -
+Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>

@@ -65,6 +65,14 @@ section {
     padding-bottom: 10px;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(60%);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
 .overlay {
     position: absolute;
     width: 100%;

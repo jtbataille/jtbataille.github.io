@@ -2,7 +2,7 @@
 <html lang="en-us">
 
     <head>
-        <title>My Portfolio</title>
+        <title>Jarrod's Portfolio</title>
         
         <!-- Bootstrap's CSS link -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -70,7 +70,7 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img class="d-block" src="Images/DogDays.png" alt="First slide">
+                        <img class="d-block" src="images/DogDays.png" alt="First slide">
                         <div class="carousel-caption d-none d-md-block">
                             <div class="layer">
                                 <h5 class="text-dark">Dog Days, Inc.</h5>
@@ -86,7 +86,7 @@
                           </div>
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block" src="Images/palateProwler.png" alt="Second slide">
+                        <img class="d-block" src="images/palateProwler.png" alt="Second slide">
                         <div class="carousel-caption d-none d-md-block">
                             <div class="layer">
                                 <h5 class="text-dark">Palate Prowler</h5>
@@ -102,7 +102,7 @@
                           </div>
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block" src="Images/codeFillerImg.png" alt="Third slide">
+                        <img class="d-block" src="images/codeFillerImg.png" alt="Third slide">
                         <div class="carousel-caption d-none d-md-block">
                             <div class="layer">
                                 <h5 class="text-dark">Project 3</h5>
@@ -131,52 +131,210 @@
 
             <h3>Solo Applications</h3>
 
-            <div class="row mb-5">
+            <!-- Accordion Test -->
 
-                <section class="col-md-4">
-                    <a class="portfolio project1" href="https://jtbataille.github.io/Day-to-Day-Planner/">
-                        <img src="Images/DayPlanner.png" class="card-img-top p-2" alt="Image of Day Planner Application" style="height:13rem;">
-                        <div class="overlay">
-                            <h4>Day-to-Day Planner</h4>
-                        </div>
-                    </a>
-                </section>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header text-center" id="burgerApp">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Eat-Da-Burger!
+                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="burgerApp" data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        <h5>Eat-Da-Burger!</h5>
+                        <img src="animations/burger.gif" alt="GIF of burger app" style="width:50%;height:50%;">
+                        <p>This Node application uses an MVC model along with Handlebarsjs, Express.js, and ORM so that users may create a burger and *devour* it with the click of a button!</p>
+                        <p>Technologies Used: MySQL, JavaScript, Handlebarsjs, Express.js, Node.js, ORM, Heroku</p>
+                        <a href="https://github.com/jtbataille/burger">
+                            <i class="fa fa-github fa-lg"></i>
+                        </a>
+                        <span class="ml-3"><a href="https://desolate-wave-66580.herokuapp.com/">
+                            <i class="fa fa-laptop fa-lg"></i>
+                        </a></span>
+                    </div>
+                    </div>
+                </div>
 
-                <section class="col-md-4">
-                    <a class="portfolio project2" href="https://jtbataille.github.io/Weather-Application/">
-                        <img src="Images/WeatherApp.png" class="card-img-top p-2" alt="Image of Weather Application" style="height:13rem;">
-                        <div class="overlay">
-                            <h4>Weather Dashboard</h4>
+                <div class="card">
+                    <div class="card-header text-center" id="employeeTrackerApp">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Employee Tracker
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="employeeTrackerApp" data-parent="#accordionExample">
+                        <div class="card-body text-center">
+                            <h5>Employee Tracker</h5>
+                            <video width="50%" height="50%" controls>
+                                <source src="animations/employee-tracker-demo.mov" alt="Video of Employee Tracker">
+                                Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
+                            </video>
+                            <p>This CLI application will allow users to view all employees, rolls, and departments within their own companies using a MySQL database. Users can also add to and update these records at will!</p>
+                            <p>Technologies Used: MySQL, JavaScript, Inquirer, CLI, Console</p>
+                            <a href="https://github.com/jtbataille/Employee-Tracker">
+                                <i class="fa fa-github fa-lg"></i>
+                            </a>
+                            <span class="ml-3"><a href="https://drive.google.com/file/d/1YP3IS7sX6EKP-YMRIuVmYvzqTrhTICzu/view">
+                                <i class="fa fa-video-camera fa-lg"></i>
+                            </a></span>
                         </div>
-                    </a>
-                </section>
+                    </div>
+                </div>
 
-                <section class="col-md-4">
-                    <a class="portfolio project3" href="https://desolate-wave-66580.herokuapp.com/">
-                        <img src="Images/startpage.png" class="card-img-top p-2" alt="Image of auto-generated README" style="height:13rem;">
-                        <div class="overlay">
-                            <h4>Eat-Da-Burger!</h4>
+                <div class="card">
+                    <div class="card-header text-center" id="dayPlannerApp">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Day-To-Day Planner
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="dayPlannerApp" data-parent="#accordionExample">
+                        <div class="card-body text-center">
+                            <h5>Day-To-Day Planner</h5>
+                            <img src="animations/schedule.gif" alt="GIF of Day-To-Day Planner" style="width:50%;height:50%;">
+                            <p>This application allows users to plan out their days, saving input to Local Storage so that users can leave the page and come back to double-check. The application is also color-coded so that users can see at a glance what times have passed and what's coming up!</p>
+                            <p>Technologies Used: HTML5, CSS3, JavaScript, Moment.js</p>
+                            <a href="https://github.com/jtbataille/Day-to-Day-Planner">
+                                <i class="fa fa-github fa-lg"></i>
+                            </a>
+                            <span class="ml-3"><a href="https://jtbataille.github.io/Day-to-Day-Planner/">
+                                <i class="fa fa-laptop fa-lg"></i>
+                            </a></span>
                         </div>
-                    </a>
-                </section>
+                    </div>
+                </div>
 
-                <section class="col-md-4">
-                    <a class="portfolio project4" href="https://github.com/jtbataille/Team-Website-Generator">
-                        <img src="Images/CLI.png" class="card-img-top p-2" alt="Image of CLI input from terminal" style="height:13rem;">
-                        <div class="overlay">
-                            <h4>Team Website Generator</h4>
+                <div class="card">
+                    <div class="card-header text-center" id="weatherApp">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Weather Dashboard
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="weatherApp" data-parent="#accordionExample">
+                        <div class="card-body text-center">
+                            <h5>Weather Dashboard</h5>
+                            <video width="50%" height="50%" controls>
+                                <source src="animations/weatherDash.mov" alt="Video of Weather Dashboard">
+                                Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
+                            </video>
+                            <p>With this application, users will be able to check weather anywhere around the world, saving their searches to Local Storage so that they may access them later!</p>
+                            <p>Technologies Used: HTML5, CSS3, JavaScript, APIs</p>
+                            <a href="https://github.com/jtbataille/Weather-Application">
+                                <i class="fa fa-github fa-lg"></i>
+                            </a>
+                            <span class="ml-3"><a href="https://jtbataille.github.io/Weather-Application/">
+                                <i class="fa fa-laptop fa-lg"></i>
+                            </a></span>
                         </div>
-                    </a>
-                </section>
+                    </div>
+                </div>
 
-                <section class="col-md-4">
-                    <a class="portfolio project5" href="https://vast-caverns-96839.herokuapp.com/">
-                        <img src="Images/NTA-Home.png" class="card-img-top p-2" alt="Image of Note Taker Application home page" style="height:13rem;">
-                        <div class="overlay">
-                            <h4>Note Taker App</h4>
+                <div class="card">
+                    <div class="card-header text-center" id="teamWebsiteGenerator">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Team Website Generator
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="teamWebsiteGenerator" data-parent="#accordionExample">
+                        <div class="card-body text-center">
+                            <h5>Team Website Generator</h5>
+                            <video width="50%" height="50%" controls>
+                                <source src="animations/teamWeb.mov" alt="Video of Team Website Generator">
+                                Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
+                            </video>
+                            <p>A CLI-based application used to create a website based on user-input of a workplace team so that duties, contact information, and job assignment can be clear for all who wish to see!</p>
+                            <p>Technologies Used: HTML5, CSS3, JavaScript, CLI, Node.js, Inquirer, Jest</p>
+                            <a href="https://github.com/jtbataille/Team-Website-Generator">
+                                <i class="fa fa-github fa-lg"></i>
+                            </a>
+                            <span class="ml-3"><a href="https://drive.google.com/file/d/1xcLXPE6eBcWV9yzThmnh3Kd1d_ZXav15/view">
+                                <i class="fa fa-video-camera fa-lg"></i>
+                            </a></span>
                         </div>
-                    </a>
-                </section>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header text-center" id="noteApp">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Note-Taker Application
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="noteApp" data-parent="#accordionExample">
+                        <div class="card-body text-center">
+                            <h5>Note-Taker App</h5>
+                            <video width="50%" height="50%" controls>
+                                <source src="animations/noteTakerApp.mov" alt="Video of Note-Taker App">
+                                Your browsers does nont support the video tag. Please see my GitHub to view the application's video!
+                            </video>
+                            <p>This application allows users to take, save, and review notes for reminders, recipes, tips and tricks, or anything else one might nneed to remember!</p>
+                            <p>Technologies Used: HTML5, CSS3, JavaScript, Express.js, Heroku</p>
+                            <a href="https://github.com/jtbataille/Note-Taker-App">
+                                <i class="fa fa-github fa-lg"></i>
+                            </a>
+                            <span class="ml-3"><a href="https://vast-caverns-96839.herokuapp.com/">
+                                <i class="fa fa-laptop fa-lg"></i>
+                            </a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header text-center" id="readmeApp">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            README Generator
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="readmeApp" data-parent="#accordionExample">
+                        <div class="card-body text-center">
+                            <h5>README Generator</h5>
+                            <img src="animations/readmeGen.gif" alt="GIF of README Generator" style="width:50%;height:50%;">
+                            <p class="mt-3">This CLI-based application can be used to auto-generate a README.md file for users who just need to pump these out for all of their application building! The generated README.md file will contain the following sections: title, license banner, description, table of contents, installation, usage, license, contributors, tests, and contacts information</p>
+                            <p>Technologies Used: Node.js, JavaScript, Inquirer</p>
+                            <a href="https://github.com/jtbataille/README-Generator">
+                                <i class="fa fa-github fa-lg"></i>
+                            </a>
+                            <span class="ml-3"><a href="https://drive.google.com/file/d/1SD1qOwN0psHxVKjecJ3_Z7yH2igEnlpA/view">
+                                <i class="fa fa-video-camera fa-lg"></i>
+                            </a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header text-center" id="passwordGeneratorApp">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            Password Generator
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseEight" class="collapse" aria-labelledby="passwordGeneratorApp" data-parent="#accordionExample">
+                        <div class="card-body text-center">
+                            <h5>Password Generator</h5>
+                            <p>This application will generate a complex password based on user-specified parameters such as which characters to include and length.</p>
+                            <p>Technologies Used: HTML5, CSS3, JavaScript</p>
+                            <a href="https://github.com/jtbataille/Password-Generator-Application">
+                                <i class="fa fa-github fa-lg"></i>
+                            </a>
+                            <span class="ml-3"><a href="https://jtbataille.github.io/Password-Generator-Application/">
+                                <i class="fa fa-laptop fa-lg"></i>
+                            </a></span>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
@@ -296,11 +454,25 @@
         </main>
 
         <!-- Footer fixed to bottom of page with Copyright -->        
-        <footer class="page-footer sticky-bottom text-center pt-6">
+        <!-- <footer class="page-footer sticky-bottom text-center pt-6">
             <div class="footer-copyright text-center py-3">
               &#169; 2020 Copyright
             </div>
-        </footer>
+        </footer> -->
+
+        <footer class="py-3 sticky-bottom">
+            <div class="container">
+              <div class="row">
+                <small> &copy; Jarrod Bataille 2020</small>
+                <ul class="social-network social-circle ml-auto">
+                  <li><a href="https://www.linkedin.com/in/jarrod-bataille-9154461aa/" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="mailto:jtbataille@gmail.com" class="icoMail" title="Mail"><i class="fa fa-envelope"></i></a></li>
+                  <li><a href="https://twitter.com/jtbataille" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="https://github.com/jtbataille" target="_blank" class="icoGitHub" title="GitHub"><i class="fa fa-github"></i></a></li>
+                </ul>
+              </div>	
+            </div>
+          </footer>
 
     <!-- Added to create a toggle menu for navbar when on smaller screens -->        
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -137,11 +137,16 @@ ul.social-network li {
     background-color: #F1F1F1;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     div .content {
         margin-bottom: 35px;
     }
     footer {
         margin-top: 20px;
+        height: 10%;
+        bottom: 0;
+    }
+    small {
+        font-size: 12px;
     }
 }

@@ -138,12 +138,11 @@ ul.social-network li {
 }
 
 @media only screen and (max-width: 600px) {
-    div .content {
-        margin-bottom: 35px;
+    .content {
+        margin-bottom: 45px;
     }
     footer {
-        margin-top: 20px;
-        height: 10%;
+        position: absolute;
         bottom: 0;
     }
     small {

@@ -166,4 +166,8 @@ ul.social-network li {
     .myCarousel {
         width: 100%;
     }
+    .skillBox {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }

@@ -54,60 +54,54 @@
         </header>
 
         <!-- Creation of form for contact with no back-end for working submission -->
-        
-        <div class="content">
-            <div class="container-fluid">
-                <div class="row margin-left:20px">
-                    <div class="col-8 m-auto"> 
-                        <div class="mt-2 pl-2 text-center mt-4">
-                            <h5>Contact Me Here!</h5>
-                        </div>
-                        
-                        <form>
-                            <div class="form-group pl-2">
-                                <label style="margin-top:20px" for="exampleFormControlName1">Name</label>
-                                <div class="form-row">
-                                    <div class="col">
-                                        <input type="text" class="form-control" placeholder="Full Name">
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="pl-2">
-                                <label for="exampleFormControlInput1">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                            </div>
-                            
-                            <div class="form-group pl-2">
-                                <label style="margin-top:20px" for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Please write me a message!"></textarea>
-                            </div>
-                            
-                            <button type="submit" class="btn btn-primary ml-2" style="margin-bottom:20px">
-                                Submit Message
-                            </button>
+        <div class="container">
+            <h5 class="text-center pt-2 pb-2">Contact Me Here</h5>
 
-                        </form>
-
-                    </div>
+            <form>
+                <div class="form-group pl-2">
+                    <label style="margin-top:20px" for="exampleFormControlName1">Name</label>
+                    <input type="text" class="form-control" placeholder="Full Name">
                 </div>
-            </div>
+                <div class="form-group pl-2">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group pl-2">
+                    <label for="exampleFormControlSelect1">Please Select One</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Job Opportunity</option>
+                    <option>Web Development</option>
+                    <option>Language</option>
+                    <option>Book Recommendations</option>
+                    <option>Miscellaneous Chat</option>
+                    </select>
+                </div>
+                <div class="form-group pl-2">
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Please write me a message!"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-outline-secondary">Submit</button>
+                    <input class="btn btn-outline-secondary" type="reset" value="Reset">
+                </div>
+            </form>
         </div>
+        
 
         <!-- Footer fixed to bottom of page with Copyright -->
         <footer class="py-2 px-5 sticky-bottom">
             <div class="row">
-              <small class="copyright"> &copy; Jarrod Bataille 2020</small>
-              <ul class="social-network social-circle ml-auto">
-                <li><a href="https://www.linkedin.com/in/jarrod-bataille-9154461aa/" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="mailto:jtbataille@gmail.com" class="icoMail" title="Mail"><i class="fa fa-envelope"></i></a></li>
-                <li><a href="https://twitter.com/jtbataille" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://github.com/jtbataille" target="_blank" class="icoGitHub" title="GitHub"><i class="fa fa-github"></i></a></li>
-              </ul>
+                <small class="copyright"> &copy; Jarrod Bataille 2020</small>
+                <ul class="social-network social-circle ml-auto">
+                    <li><a href="https://www.linkedin.com/in/jarrod-bataille-9154461aa/" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="mailto:jtbataille@gmail.com" class="icoMail" title="Mail"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="https://twitter.com/jtbataille" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/jtbataille" target="_blank" class="icoGitHub" title="GitHub"><i class="fa fa-github"></i></a></li>
+                </ul>
             </div>
         </footer>
         
-    <!-- Added to create a toggle menu for navbar when on smaller screens -->        
+        <!-- Added to create a toggle menu for navbar when on smaller screens -->        
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 

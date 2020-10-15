@@ -28,8 +28,8 @@ nav {
 form {
     background-color: #BBB6B6 !important;
     padding: 10px;
-    margin-left: 2px;
     border: 1px solid black;
+    margin-bottom: 15px;
 }
 
 h5 {
@@ -138,14 +138,10 @@ ul.social-network li {
 }
 
 @media only screen and (max-width: 600px) {
-    .content {
-        margin-bottom: 45px;
-    }
     footer {
         position: absolute;
         bottom: 0;
-    }
-    small {
-        font-size: 12px;
+        font-size: 15px;
+        padding: 0;
     }
 }

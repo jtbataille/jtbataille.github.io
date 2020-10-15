@@ -34,6 +34,3 @@ My portfolio contains the following pages:
 * LinkedIn Profile: [Find me on Linkedin](https://www.linkedin.com/in/jarrod-bataille-9154461aa/)
 * GitHub Profile: [Find me on GitHub](https://github.com/jtbataille)
 * E-mail Address: jtbataille@gmail.com
-
-- - -
-Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>

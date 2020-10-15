@@ -149,3 +149,9 @@ ul.social-network li {
 .social-network a {
     background-color: #F1F1F1;
 }
+
+@media only screen and (max-width: 768px) {
+   footer {
+       bottom: 0;
+   }
+}

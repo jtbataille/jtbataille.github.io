@@ -31,31 +31,21 @@ nav {
     object-fit: scale-down;
 }
 
-.carousel-item {
-    height: 500px;
-    width: 100%;
-    object-fit: scale-down;
-}
-
 h3 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 15px;
 }
 
-section {
-    padding-bottom: 30px;
-    padding-right: 30px;
+.carousel-item {
+    height: 500px;
+    width: 100%;
+    object-fit: scale-down;
 }
 
-.portfolio:hover img {
-    opacity: .20;
-    transform: scale(1.1);
-}
-
-.portfolio:hover .overlay {
-    opacity: 1;
-    transform: scale(1.1);
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
 }
 
 .layer {
@@ -71,39 +61,6 @@ section {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-}
-
-.overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: .5s ease;
-    font-family: 'Yellowtail', cursive;
-}
-
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-}
-
-h4, .insideText {
-    color: #212121;
-    text-align: center;
-    position: relative;
-    /* left: 12%; */
-}
-
-h4 {
-    top: 10%;
-}
-
-.insideText {
-    top: 12%;
 }
 
 footer {
@@ -203,4 +160,10 @@ ul.social-network li {
 
 .social-network a {
     background-color: #F1F1F1;
+}
+
+@media only screen and (max-width: 768px) {
+    .myCarousel {
+        width: 100%;
+    }
 }

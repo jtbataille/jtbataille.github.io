@@ -136,14 +136,38 @@
 
             <div class="accordion" id="accordionExample">
                 <div class="card">
-                    <div class="card-header text-center" id="burgerApp">
+                    <div class="card-header text-center" id="workoutTracker">
                     <h2 class="mb-0">
                         <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Workout Tracker
+                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="workoutTracker" data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        <h5><span style="font-family:'IBM Plex Sans',sans-serif;font-weight:bold;font-size:24px;">Workout Tracker</span></h5>
+                        <img src="animations/workoutApp.gif" alt="GIF of burger app" style="width:50%;height:50%;">
+                        <p><span style="font-family:'IBM Plex Sans',sans-serif;"><span style="text-decoration:underline;font-weight:bold;">Description:</span> This workout tracker application allows users to create and track daily workouts while logging multiple exercises per workout on any given day, enabling users to track the names, types, weights, sets, reps, and durations of their exercises.</span></p>
+                        <p><span style="font-family:'IBM Plex Sans',sans-serif;"><span style="text-decoration:underline;font-weight:bold;">Technologies Used:</span> MongoDB, Mongoose, Morgan, JavaScript, HTML, CSS, Heroku</span></p>
+                        <a href="https://github.com/jtbataille/Workout-Tracker">
+                            <i class="fa fa-github fa-lg"></i>
+                        </a>
+                        <span class="ml-3"><a href="https://blooming-island-78923.herokuapp.com/">
+                            <i class="fa fa-laptop fa-lg"></i>
+                        </a></span>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header text-center" id="burgerApp">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                         Eat-Da-Burger!
                         </button>
                     </h2>
                     </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="burgerApp" data-parent="#accordionExample">
+                    <div id="collapseTwo" class="collapse" aria-labelledby="burgerApp" data-parent="#accordionExample">
                     <div class="card-body text-center">
                         <h5><span style="font-family:'IBM Plex Sans',sans-serif;font-weight:bold;font-size:24px;">Eat-Da-Burger!</span></h5>
                         <img src="animations/burger.gif" alt="GIF of burger app" style="width:50%;height:50%;">
@@ -162,12 +186,12 @@
                 <div class="card">
                     <div class="card-header text-center" id="employeeTrackerApp">
                         <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Employee Tracker
                         </button>
                         </h2>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="employeeTrackerApp" data-parent="#accordionExample">
+                    <div id="collapseThree" class="collapse" aria-labelledby="employeeTrackerApp" data-parent="#accordionExample">
                         <div class="card-body text-center">
                             <h5><span style="font-family:'IBM Plex Sans',sans-serif;font-weight:bold;font-size:24px;">Employee Tracker</span></h5>
                             <video width="50%" height="50%" controls>
@@ -189,12 +213,12 @@
                 <div class="card">
                     <div class="card-header text-center" id="dayPlannerApp">
                         <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                             Day-To-Day Planner
                         </button>
                         </h2>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="dayPlannerApp" data-parent="#accordionExample">
+                    <div id="collapseFour" class="collapse" aria-labelledby="dayPlannerApp" data-parent="#accordionExample">
                         <div class="card-body text-center">
                             <h5><span style="font-family:'IBM Plex Sans',sans-serif;font-weight:bold;font-size:24px;">Day-To-Day Planner</span></h5>
                             <img src="animations/schedule.gif" alt="GIF of Day-To-Day Planner" style="width:50%;height:50%;">
@@ -213,12 +237,12 @@
                 <div class="card">
                     <div class="card-header text-center" id="weatherApp">
                         <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             Weather Dashboard
                         </button>
                         </h2>
                     </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="weatherApp" data-parent="#accordionExample">
+                    <div id="collapseFive" class="collapse" aria-labelledby="weatherApp" data-parent="#accordionExample">
                         <div class="card-body text-center">
                             <h5><span style="font-family:'IBM Plex Sans',sans-serif;font-weight:bold;font-size:24px;">Weather Dashboard</span></h5>
                             <video width="50%" height="50%" controls>
@@ -240,12 +264,12 @@
                 <div class="card">
                     <div class="card-header text-center" id="teamWebsiteGenerator">
                         <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                             Team Website Generator
                         </button>
                         </h2>
                     </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="teamWebsiteGenerator" data-parent="#accordionExample">
+                    <div id="collapseSix" class="collapse" aria-labelledby="teamWebsiteGenerator" data-parent="#accordionExample">
                         <div class="card-body text-center">
                             <h5><span style="font-family:'IBM Plex Sans',sans-serif;font-weight:bold;font-size:24px;">Team Website Generator</span></h5>
                             <video width="50%" height="50%" controls>
@@ -267,12 +291,12 @@
                 <div class="card">
                     <div class="card-header text-center" id="noteApp">
                         <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                             Note-Taker Application
                         </button>
                         </h2>
                     </div>
-                    <div id="collapseSix" class="collapse" aria-labelledby="noteApp" data-parent="#accordionExample">
+                    <div id="collapseSeven" class="collapse" aria-labelledby="noteApp" data-parent="#accordionExample">
                         <div class="card-body text-center">
                             <h5><span style="font-family:'IBM Plex Sans',sans-serif;font-weight:bold;font-size:24px;">Note-Taker Application</span></h5>
                             <video width="50%" height="50%" controls>
@@ -293,12 +317,12 @@
                 <div class="card">
                     <div class="card-header text-center" id="readmeApp">
                         <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                             README Generator
                         </button>
                         </h2>
                     </div>
-                    <div id="collapseSeven" class="collapse" aria-labelledby="readmeApp" data-parent="#accordionExample">
+                    <div id="collapseEight" class="collapse" aria-labelledby="readmeApp" data-parent="#accordionExample">
                         <div class="card-body text-center">
                             <h5><span style="font-family:'IBM Plex Sans',sans-serif;font-weight:bold;font-size:24px;">README Generator</span></h5>
                             <img src="animations/readmeGen.gif" alt="GIF of README Generator" style="width:50%;height:50%;">
@@ -317,12 +341,12 @@
                 <div class="card">
                     <div class="card-header text-center" id="passwordGeneratorApp">
                         <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                             Password Generator
                         </button>
                         </h2>
                     </div>
-                    <div id="collapseEight" class="collapse" aria-labelledby="passwordGeneratorApp" data-parent="#accordionExample">
+                    <div id="collapseNine" class="collapse" aria-labelledby="passwordGeneratorApp" data-parent="#accordionExample">
                         <div class="card-body text-center">
                             <h5><span style="font-family:'IBM Plex Sans',sans-serif;font-weight:bold;font-size:24px;">Password Generator</span></h5>
                             <video width="50%" height="50%" controls>
